@@ -6,7 +6,7 @@ import MyProject from "./Components/MyProject/MyProject";
 import Navbar from "./Components/Navbar/Navbar";
 import Skills from "./Components/Skills/Skills";
 import Testimonial from "./Components/Testimonial/Testimonial";
-import theme_pattern from "./assets/theme_pattern.svg";
+import theme_pattern from "./assets/mongoNew.png";
 
 const App = () => {
   return (
@@ -28,7 +28,7 @@ const App = () => {
         <div className="heading">
           <div className="heading-title">
             <h1>My Latest Project</h1>
-            <img src={theme_pattern} alt="" />
+            <img className="-rotate-12" src={theme_pattern} alt="" />
           </div>
         </div>
         <div className="parallax para-3">
@@ -40,7 +40,7 @@ const App = () => {
         <div className="heading">
           <div className="heading-title">
             <h1>Testimonials</h1>
-            <img src={theme_pattern} alt="" />
+            <img src={theme_pattern} className="-rotate-12" alt="" />
           </div>
         </div>
         <div className="parallax para-2">
@@ -52,7 +52,7 @@ const App = () => {
         <div className="heading">
           <div className="heading-title">
             <h1>Education</h1>
-            <img src={theme_pattern} alt="" />
+            <img className="-rotate-12" src={theme_pattern} alt="" />
           </div>
         </div>
         <div className="">

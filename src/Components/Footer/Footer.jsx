@@ -1,6 +1,3 @@
-// import { Link } from "react-router-dom";
-import logo from "../../assets/logo.svg";
-
 const Footer = () => {
   return (
     <footer className="bg-[#111827] dark:bg-gray-900 text-white">
@@ -8,11 +5,9 @@ const Footer = () => {
         <div className="lg:flex">
           <div className="w-full -mx-6 lg:w-2/5">
             <div className="px-6">
-              <a href="/">
-                <img className="w-auto h-7" src={logo} alt="" />
-              </a>
+              <a href="/">Mazba Uddin</a>
               <p className="max-w-sm mt-2 text-gray-500 dark:text-gray-400">
-                Please Come to Our Restaurant and Enjoy.
+                Please Contact Me.
               </p>
 
               <div className="flex mt-6 -mx-2">

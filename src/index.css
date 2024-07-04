@@ -71,10 +71,10 @@ body {
 
 /* skills */
 .social-img {
-  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
-  color: white;
+  /* background: linear-gradient(270deg, #df8908 10%, #b415ff 100%); */
+  border: 2px solid rgb(173, 167, 179);
 }
-.social-icon {
+/* .social-icon {
   font-size: 50px;
   font-weight: 700;
   background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
@@ -84,7 +84,7 @@ body {
   margin-top: 100px;
   margin-bottom: 100px;
   color: white;
-}
+} */
 
 /* my project */
 .project-btn {
