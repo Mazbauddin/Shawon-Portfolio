@@ -19,7 +19,7 @@ const Banner = () => {
               <span className="port-name">Md. Mazba Uddin Shawon</span>
             </h1>
             <p className="py-6 text-right">Frontend Developer</p>
-            <p className="py-6 text-justify">
+            <p className="pb-6 text-right">
               I am a frontend developer from Bangladesh with 1 years of
               experience.
             </p>

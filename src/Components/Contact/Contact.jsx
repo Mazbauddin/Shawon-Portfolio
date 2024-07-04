@@ -1,6 +1,11 @@
 import React from "react";
 import toast from "react-hot-toast";
-import { FaPhoneAlt } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaGithub,
+  FaLinkedinIn,
+  FaPhoneAlt,
+} from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { IoLocation } from "react-icons/io5";
 
@@ -41,17 +46,40 @@ const Contact = () => {
             send me a message about anything that you want me to work on. You
             can contact anytime.
           </p>
-          <div className="contact-details">
-            <p className="contact-detail">
-              <IoIosMail className="text-4xl" />
-              <span>mazbauddin2010@gmail.com</span>
-            </p>
-            <p className="contact-detail">
-              <FaPhoneAlt className="text-4xl" /> <span>+8801787769270</span>
-            </p>
-            <p className="contact-detail">
-              <IoLocation className="text-4xl" /> <span>Dhaka, Bangladesh</span>
-            </p>
+          <div>
+            <div className="contact-details">
+              <p className="contact-detail">
+                <IoIosMail className="text-4xl" />
+                <span>mazbauddin2010@gmail.com</span>
+              </p>
+              <p className="contact-detail">
+                <FaPhoneAlt className="text-4xl" /> <span>+8801787769270</span>
+              </p>
+              <p className="contact-detail">
+                <IoLocation className="text-4xl" />{" "}
+                <span>Dhaka, Bangladesh</span>
+              </p>
+            </div>
+            <div className="flex gap-10 mt-10">
+              <a
+                className="social-link bg-[#0966ff] hover:text-[#0966ff] hover:bg-white text-white border-2 border-[#0966ff]"
+                href="https://www.facebook.com/mazbashawon"
+              >
+                <FaFacebookF />
+              </a>
+              <a
+                className="social-link bg-[#0a66c2] hover:text-[#0a66c2] hover:bg-white text-white border-2 border-[#0a66c2]"
+                href="https://www.linkedin.com/in/mazba-uddin-784431174/"
+              >
+                <FaLinkedinIn />
+              </a>
+              <a
+                className="social-link bg-[#1f2328] hover:text-[#1f2328] hover:bg-white text-white border-2 border-[#1f2328]"
+                href="https://github.com/Mazbauddin"
+              >
+                <FaGithub />
+              </a>
+            </div>
           </div>
         </div>
         <form onSubmit={onSubmit} className="contact-right w-1/2">

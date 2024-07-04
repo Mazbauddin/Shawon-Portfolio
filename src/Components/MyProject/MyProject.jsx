@@ -2,7 +2,7 @@ const MyProject = () => {
   return (
     <div id="work" className="container mx-auto">
       {/* My Project */}
-      <div className="project-container grid grid-cols-3 gap-10">
+      <div className="project-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         <div className="project-formet flex flex-col max-w-lg p-6 space-y-6 overflow-hidden rounded-lg shadow-md dark:bg-gray-50 dark:text-gray-800 border-2">
           <div className="flex space-x-4">
             <img

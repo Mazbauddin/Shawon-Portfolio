@@ -75,3 +75,20 @@
   color: #000;
   border: 2px solid #fff;
 }
+
+@media (max-width: 768px) {
+  .port-name {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-left: 0px;
+  }
+  .hero-connect {
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+
+  .hero-resume {
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+}
