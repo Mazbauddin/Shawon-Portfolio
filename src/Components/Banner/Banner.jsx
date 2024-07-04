@@ -14,7 +14,7 @@ const Banner = () => {
               className="w-full  min-h-screen"
             />
           </div>
-          <div className=" w-1/2">
+          <div className=" w-1/2 mt-20">
             <h1 className="text-5xl font-bold">
               <span className="port-name">Md. Mazba Uddin Shawon</span>
             </h1>
