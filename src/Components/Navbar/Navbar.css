@@ -43,3 +43,18 @@
   -ms-transform: scale(1.05);
   -o-transform: scale(1.05);
 }
+
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.nav-menu li:hover {
+  color: rgb(18, 121, 255);
+}
+.nav-menu li img {
+  display: flex;
+  margin: auto;
+}

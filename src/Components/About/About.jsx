@@ -3,7 +3,7 @@ import theme_pattern from "../../assets/theme_pattern.svg";
 
 const About = () => {
   return (
-    <section className="container mx-auto">
+    <section id="about" className="container mx-auto">
       <div className="heading">
         <div className="heading-title">
           <h1>About Me</h1>

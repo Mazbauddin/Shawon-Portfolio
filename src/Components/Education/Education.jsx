@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 const Education = () => {
   return (
     <div className="container mx-auto mb-20">

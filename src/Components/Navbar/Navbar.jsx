@@ -1,7 +1,9 @@
 import "./Navbar.css";
-
+import theme_pattern from "../../assets/nav_underline.svg";
 import { useState } from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 const Navbar = () => {
+  const [menu, setMenu] = useState("home");
   const [navbar, setNavbar] = useState(false);
 
   // sticky menu
@@ -24,13 +26,62 @@ const Navbar = () => {
           </div>
           <div className="header-links md:contents font-medium text-base ">
             <ul className="ml-4 text-white  mr-auto w-full justify-center dark:text-orange-500 nav-menu flex items-center gap-16 text-xl">
-              <li>Home</li>
-              <li>About Me</li>
-              <li>Services</li>
-              <li>Portfolio</li>
-              <li>Contact</li>
+              <li>
+                <AnchorLink className="anchor-link" href="#home">
+                  <p onClick={() => setMenu("home")}>Home</p>
+                </AnchorLink>
+                {menu === "home" ? <img src={theme_pattern} alt="" /> : <></>}
+              </li>
+              <li>
+                <AnchorLink className="anchor-link" offset={150} href="#about">
+                  <p onClick={() => setMenu("about")}>About Me</p>
+                </AnchorLink>
+                {menu === "about" ? <img src={theme_pattern} alt="" /> : <></>}
+              </li>
+              <li>
+                <AnchorLink
+                  className="anchor-link"
+                  offset={420}
+                  href="#services"
+                >
+                  <p onClick={() => setMenu("services")}>Services</p>
+                </AnchorLink>
+                {menu === "services" ? (
+                  <img src={theme_pattern} alt="" />
+                ) : (
+                  <></>
+                )}
+              </li>
+              <li>
+                <AnchorLink className="anchor-link" offset={400} href="#work">
+                  <p onClick={() => setMenu("work")}>Portfolio</p>
+                </AnchorLink>
+                {menu === "work" ? <img src={theme_pattern} alt="" /> : <></>}
+              </li>
+              <li>
+                <AnchorLink
+                  className="anchor-link"
+                  offset={300}
+                  href="#contact"
+                >
+                  <p onClick={() => setMenu("contact")}>Contact</p>
+                </AnchorLink>
+                {menu === "contact" ? (
+                  <img src={theme_pattern} alt="" />
+                ) : (
+                  <></>
+                )}
+              </li>
               <div className=" flex items-center  justify-end w-full md:w-auto ">
-                <div className="nav-connect">Hire Me</div>
+                <div className="nav-connect">
+                  <AnchorLink
+                    className="anchor-link"
+                    offset={300}
+                    href="#contact"
+                  >
+                    Hire Me
+                  </AnchorLink>
+                </div>
               </div>
             </ul>
           </div>

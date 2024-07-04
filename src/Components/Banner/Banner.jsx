@@ -1,8 +1,9 @@
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import "./Banner.css";
 
 const Banner = () => {
   return (
-    <div className="container mx-auto">
+    <div id="home" className="container mx-auto">
       <div className="hero min-h-screen">
         {/* particles js here */}
 
@@ -25,7 +26,13 @@ const Banner = () => {
 
             <div className="hero-action">
               <div href="#" className="hero-connect">
-                Connect With Me
+                <AnchorLink
+                  className="anchor-link"
+                  offset={300}
+                  href="#contact"
+                >
+                  Connect With Me
+                </AnchorLink>
               </div>
               <div href="#" className="hero-resume">
                 <a
