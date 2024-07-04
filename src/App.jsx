@@ -1,9 +1,15 @@
+import Banner from "./Components/Banner/Banner";
 import Navbar from "./Components/Navbar/Navbar";
 
 const App = () => {
   return (
     <div>
-      <Navbar />
+      <div>
+        <Navbar />
+      </div>
+      <div className="parallax-banner">
+        <Banner></Banner>
+      </div>
     </div>
   );
 };
