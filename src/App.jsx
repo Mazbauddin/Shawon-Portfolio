@@ -1,6 +1,9 @@
 import About from "./Components/About/About";
 import Banner from "./Components/Banner/Banner";
 import Navbar from "./Components/Navbar/Navbar";
+import Skills from "./Components/Skills/Skills";
+import Testimonial from "./Components/Testimonial/Testimonial";
+import theme_pattern from "./assets/theme_pattern.svg";
 
 const App = () => {
   return (
@@ -13,6 +16,18 @@ const App = () => {
       </div>
       <div>
         <About />
+      </div>
+      <div>
+        <Skills />
+      </div>
+      <div>
+        <div className="about-title">
+          <h1 className="text-red-500">Testimonial</h1>
+          <img src={theme_pattern} alt="" />
+        </div>
+        <div className="parallax para-2">
+          <Testimonial />
+        </div>
       </div>
     </div>
   );

@@ -15,3 +15,28 @@ body {
   color: white;
   font-family: "Roboto", sans-serif;
 }
+
+.parallax {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 150vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://i.ibb.co/HGLfrbY/bg-Img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.para-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://i.ibb.co/s6J0sBS/carousel2.jpg);
+}
+
+.para-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://i.ibb.co/khR5kzR/beef-burger.jpg);
+}
