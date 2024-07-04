@@ -3,7 +3,7 @@ import theme_pattern from "../../assets/theme_pattern.svg";
 
 const About = () => {
   return (
-    <section>
+    <section className="container mx-auto">
       <div className="heading">
         <div className="heading-title">
           <h1>About Me</h1>
@@ -21,18 +21,26 @@ const About = () => {
             </h1>
             <p className="py-6 text-right">Frontend Developer</p>
             <p className="py-6 text-justify">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio non
-              cum illo accusamus maxime inventore minus quae nobis obcaecati
-              eaque culpa aspernatur, saepe provident sequi fuga molestias
-              beatae nesciunt sunt.
+              A highly motivated and detail-oriented front-end developer seeking
+              to leverage expertise in HTML, CSS, JavaScript, React.js, and
+              modern UI frameworks like Tailwind CSS and Material-Tailwind to
+              create user-friendly, responsive, and dynamic web applications.
+              Passionate about delivering high-quality code and improving user
+              experience through innovative solutions.
             </p>
 
             <div className="hero-action">
               <div href="#" className="hero-connect">
                 Connect With Me
               </div>
-              <div href="#" className="hero-resume">
-                Download My Resume
+              <div href="#" className="about-resume">
+                <a
+                  href="https://drive.google.com/file/d/17L-nzwaSwyOPvyf14zH4ukNET1sspTU_/view?usp=drive_link"
+                  download="FileName"
+                  className=""
+                >
+                  Download My Resume
+                </a>
               </div>
             </div>
           </div>

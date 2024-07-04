@@ -1,34 +1,115 @@
 const Services_Data = [
-    {
-        s_no:"01",
-        s_name:"Web design",
-        s_desc:"Web development is the process of building, programming..."
-    },
-    {
-        s_no:"02",
-        s_name:"Graphics design",
-        s_desc:"Web development is the process of building, programming..."
-    },
-    {
-        s_no:"03",
-        s_name:"Social media",
-        s_desc:"Web development is the process of building, programming..."
-    },
-    {
-        s_no:"04",
-        s_name:"App design",
-        s_desc:"Web development is the process of building, programming..."
-    },
-    {
-        s_no:"05",
-        s_name:"Digital marketing",
-        s_desc:"Web development is the process of building, programming..."
-    },
-    {
-        s_no:"06",
-        s_name:"Content writing",
-        s_desc:"Web development is the process of building, programming..."
-    },
-]
- 
+  {
+    author_img:
+      "https://media.licdn.com/dms/image/D5603AQFNKG0SvF5dPg/profile-displayphoto-shrink_200_200/0/1719836196777?e=1725494400&v=beta&t=uCgpRC5ZOUu2IkFySCXbKkJhwqckcPacYajZ6FE7_lc",
+    author_name: "Md. Mazba Uddin Shawon",
+    pub_date: "",
+    s_no: "02",
+    project_img: "https://i.ibb.co/K6JYfK9/p2.png",
+    project_name: "",
+    s_desc: "Web development is the process of building, programming...",
+    feature: "01. Eye Catching Testimonial, 02. Login Page, 03. Sticky Menu",
+    technology: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Tailwind CSS",
+      "Firebase",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+    ],
+  },
+  {
+    author_img:
+      "https://media.licdn.com/dms/image/D5603AQFNKG0SvF5dPg/profile-displayphoto-shrink_200_200/0/1719836196777?e=1725494400&v=beta&t=uCgpRC5ZOUu2IkFySCXbKkJhwqckcPacYajZ6FE7_lc",
+    author_name: "Md. Mazba Uddin Shawon",
+    pub_date: "",
+    s_no: "03",
+    project_img: "",
+    project_name: "",
+    s_desc: "Web development is the process of building, programming...",
+    feature: "01. Eye Catching Testimonial, 02. Login Page, 03. Sticky Menu",
+    technology: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Tailwind CSS",
+      "Firebase",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+    ],
+  },
+  {
+    author_img:
+      "https://media.licdn.com/dms/image/D5603AQFNKG0SvF5dPg/profile-displayphoto-shrink_200_200/0/1719836196777?e=1725494400&v=beta&t=uCgpRC5ZOUu2IkFySCXbKkJhwqckcPacYajZ6FE7_lc",
+    author_name: "Md. Mazba Uddin Shawon",
+    pub_date: "22/04/2024",
+    s_no: "04",
+    project_img: "https://i.ibb.co/gMw4xBz/p4.png",
+    project_name: "Book Vibe",
+    s_desc: "Web development is the process of building, programming...",
+    feature: "01. Eye Catching Testimonial, 02. Login Page, 03. Sticky Menu",
+    technology: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Tailwind CSS",
+      "Firebase",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+    ],
+  },
+  {
+    author_img:
+      "https://media.licdn.com/dms/image/D5603AQFNKG0SvF5dPg/profile-displayphoto-shrink_200_200/0/1719836196777?e=1725494400&v=beta&t=uCgpRC5ZOUu2IkFySCXbKkJhwqckcPacYajZ6FE7_lc",
+    author_name: "Md. Mazba Uddin Shawon",
+    pub_date: "22/04/2024",
+    s_no: "05",
+    project_img: "https://i.ibb.co/DL0Vv7s/p1.png",
+    project_name: "Luxury Restaurant",
+    s_desc: "Web development is the process of building, programming...",
+    feature: "01. Eye Catching Testimonial, 02. Login Page, 03. Sticky Menu",
+    gihub_client: "https://github.com/Mazbauddin/Luxury-Restaurant",
+    technology: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Tailwind CSS",
+      "Firebase",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+    ],
+  },
+  {
+    author_img:
+      "https://media.licdn.com/dms/image/D5603AQFNKG0SvF5dPg/profile-displayphoto-shrink_200_200/0/1719836196777?e=1725494400&v=beta&t=uCgpRC5ZOUu2IkFySCXbKkJhwqckcPacYajZ6FE7_lc",
+    author_name: "Md. Mazba Uddin Shawon",
+    pub_date: "22/04/2024",
+    s_no: "06",
+    project_img: "https://i.ibb.co/vY1p4kg/p6.png",
+    project_name: "Real Estate",
+    s_desc: "Web development is the process of building, programming...",
+    feature: "01. Eye Catching Testimonial, 02. Login Page, 03. Sticky Menu",
+    technology: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Tailwind CSS",
+      "Firebase",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+    ],
+  },
+];
+
 export default Services_Data;

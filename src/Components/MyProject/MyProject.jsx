@@ -1,69 +1,244 @@
-import theme_pattern from "../../assets/theme_pattern.svg";
-
 const MyProject = () => {
   return (
-    <div className="">
-      <div className="heading">
-        <div className="heading-title">
-          <h1>My Latest Project</h1>
-          <img src={theme_pattern} alt="" />
-        </div>
-      </div>
-
+    <div className="container mx-auto">
       {/* My Project */}
-      <div className="dark:bg-gray-100 dark:text-gray-900 bg-black">
-        <div className="container grid grid-cols-12 mx-auto dark:bg-gray-50">
-          <div
-            className="bg-no-repeat bg-cover dark:bg-gray-300 col-span-full lg:col-span-4"
-            // style="background-image: url('https://source.unsplash.com/random/640x480'); background-position: center center; background-blend-mode: multiply; background-size: cover;"
-          ></div>
-          <div className="flex flex-col p-6 col-span-full row-span-full lg:col-span-8 lg:p-10">
-            <div className="flex justify-start">
-              <span className="px-2 py-1 text-xs rounded-full dark:bg-violet-600 dark:text-gray-50">
-                Label
+      <div className="project-container grid grid-cols-3 gap-10">
+        <div className="project-formet flex flex-col max-w-lg p-6 space-y-6 overflow-hidden rounded-lg shadow-md dark:bg-gray-50 dark:text-gray-800 border-2">
+          <div className="flex space-x-4">
+            <img
+              alt=""
+              src="https://media.licdn.com/dms/image/D5603AQFNKG0SvF5dPg/profile-displayphoto-shrink_200_200/0/1719836196777?e=1725494400&v=beta&t=uCgpRC5ZOUu2IkFySCXbKkJhwqckcPacYajZ6FE7_lc"
+              className="object-cover w-12 h-12 rounded-full shadow dark:bg-gray-500"
+            />
+            <div className="flex flex-col space-y-1">
+              <a
+                rel="noopener noreferrer"
+                href="#"
+                className="text-sm font-semibold"
+              >
+                Md. Mazba Uddin Shawon
+              </a>
+              <span className="text-xs dark:text-gray-600">
+                Published Date: 10/05/2024
               </span>
             </div>
-            <h1 className="text-3xl font-semibold">Lorem ipsum dolor sit.</h1>
-            <p className="flex-1 pt-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
-              reprehenderit adipisci tempore voluptas laborum quod.
+          </div>
+          <div>
+            <img
+              src="https://i.ibb.co/K6JYfK9/p2.png"
+              alt=""
+              className="object-cover w-full mb-4 h-60 sm:h-96 dark:bg-gray-500"
+            />
+            <h2 className="mb-1 text-xl font-semibold">Gravity</h2>
+            <p className="text-sm dark:text-gray-600 text-left">
+              Web development is the process of building, programming...
             </p>
-            <a
-              rel="noopener noreferrer"
-              href="#"
-              className="inline-flex items-center pt-2 pb-6 space-x-2 text-sm dark:text-violet-600"
-            >
-              <span>Read more</span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                className="w-4 h-4"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                  clipRule="evenodd"
-                ></path>
-              </svg>
-            </a>
-            <div className="flex items-center justify-between pt-2">
-              <div className="flex space-x-2">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  className="w-5 h-5 dark:text-gray-600"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z"
-                    clipRule="evenodd"
-                  ></path>
-                </svg>
-                <span className="self-center text-sm">by Leroy Jenkins</span>
+            <p className="text-sm dark:text-gray-600 mt-5">
+              01. Eye Catching Testimonial, 02. Login Page, 03. Sticky Menu
+            </p>
+            <div>
+              <div className="mt-5">
+                <p>Technology Used:</p>
               </div>
-              <span className="text-xs">3 min read</span>
+              <p className="text-sm dark:text-gray-600 grid grid-cols-3 gap-5">
+                {/* {project.technology} */}
+                <button className="project-btn"># HTML</button>
+                <button className="project-btn"># CSS</button>
+                <button className="project-btn"># JavaScript</button>
+                <button className="project-btn"># React</button>
+                <button className="project-btn"># Tailwind CSS</button>
+                <button className="project-btn"># Firebase</button>
+                <button className="project-btn"># Node js</button>
+                <button className="project-btn"># Express js</button>
+                <button className="project-btn"># MongoDB</button>
+              </p>
+            </div>
+            {/* Project live */}
+            <div className="flex flex-col gap-5 mt-8">
+              <a
+                href="https://github.com/Mazbauddin/Gravity-Client-Side"
+                target="_blank"
+                className="text-sm font-semibold hover:text-blue-500 dark:text-blue-300"
+              >
+                Github: Source Code client
+              </a>
+              <a
+                href="https://github.com/Mazbauddin/Gravity-Server-Side"
+                target="_blank"
+                className="text-sm font-semibold hover:text-blue-500 dark:text-blue-300"
+              >
+                Github: Source Code Server
+              </a>
+            </div>
+
+            <div className="mt-10">
+              <a
+                href="https://gravity-96df3.web.app/"
+                target="_blank"
+                className="live-btn  text-white text-sm font-semibold hover:text-blue-500 dark:text-blue-300"
+              >
+                Live Preview
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="project-formet flex flex-col max-w-lg p-6 space-y-6 overflow-hidden rounded-lg shadow-md dark:bg-gray-50 dark:text-gray-800 border-2">
+          <div className="flex space-x-4">
+            <img
+              alt=""
+              src="https://media.licdn.com/dms/image/D5603AQFNKG0SvF5dPg/profile-displayphoto-shrink_200_200/0/1719836196777?e=1725494400&v=beta&t=uCgpRC5ZOUu2IkFySCXbKkJhwqckcPacYajZ6FE7_lc"
+              className="object-cover w-12 h-12 rounded-full shadow dark:bg-gray-500"
+            />
+            <div className="flex flex-col space-y-1">
+              <a
+                rel="noopener noreferrer"
+                href="#"
+                className="text-sm font-semibold"
+              >
+                Md. Mazba Uddin Shawon
+              </a>
+              <span className="text-xs dark:text-gray-600">
+                Published Date: 27/03/2024
+              </span>
+            </div>
+          </div>
+          <div>
+            <img
+              src="https://i.ibb.co/DL0Vv7s/p1.png"
+              alt=""
+              className="object-cover w-full mb-4 h-60 sm:h-96 dark:bg-gray-500"
+            />
+            <h2 className="mb-1 text-xl font-semibold">Luxury</h2>
+            <p className="text-sm dark:text-gray-600 mt-5">
+              Web development is the process of building, programming...
+            </p>
+            <p className="text-sm dark:text-gray-600 mt-5">
+              01. Eye Catching Testimonial, 02. Login Page, 03. Sticky Menu
+            </p>
+            <div>
+              <div className="mt-5">
+                <p>Technology Used:</p>
+              </div>
+              <p className="text-sm dark:text-gray-600 grid grid-cols-3 gap-5">
+                {/* {project.technology} */}
+                <button className="project-btn"># HTML</button>
+                <button className="project-btn"># CSS</button>
+                <button className="project-btn"># JavaScript</button>
+                <button className="project-btn"># React</button>
+                <button className="project-btn"># Tailwind CSS</button>
+                <button className="project-btn"># Firebase</button>
+                <button className="project-btn"># Node js</button>
+                <button className="project-btn"># Express js</button>
+                <button className="project-btn"># MongoDB</button>
+              </p>
+            </div>
+
+            {/* Project live */}
+            <div className="flex flex-col gap-5 mt-8">
+              <a
+                href="https://github.com/Mazbauddin/Luxury-Restaurant"
+                target="_blank"
+                className="text-sm font-semibold hover:text-blue-500 dark:text-blue-300"
+              >
+                Github: Source Code client
+              </a>
+              <a
+                href="https://github.com/Mazbauddin/Luxury-Restaurant-server"
+                target="_blank"
+                className="text-sm font-semibold hover:text-blue-500 dark:text-blue-300"
+              >
+                Github: Source Code Server
+              </a>
+            </div>
+
+            <div className="mt-10">
+              <a
+                href="https://luxury-restaurants.web.app/"
+                target="_blank"
+                className="live-btn  text-white text-sm font-semibold hover:text-blue-500 dark:text-blue-300"
+              >
+                Live Preview
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="project-formet flex flex-col max-w-lg p-6 space-y-6 overflow-hidden rounded-lg shadow-md dark:bg-gray-50 dark:text-gray-800 border-2">
+          <div className="flex space-x-4">
+            <img
+              alt=""
+              src="https://media.licdn.com/dms/image/D5603AQFNKG0SvF5dPg/profile-displayphoto-shrink_200_200/0/1719836196777?e=1725494400&v=beta&t=uCgpRC5ZOUu2IkFySCXbKkJhwqckcPacYajZ6FE7_lc"
+              className="object-cover w-12 h-12 rounded-full shadow dark:bg-gray-500"
+            />
+            <div className="flex flex-col space-y-1">
+              <a
+                rel="noopener noreferrer"
+                href="#"
+                className="text-sm font-semibold"
+              >
+                Md. Mazba Uddin Shawon
+              </a>
+              <span className="text-xs dark:text-gray-600">
+                Published Date: 22/04/2024
+              </span>
+            </div>
+          </div>
+          <div>
+            <img
+              src="https://i.ibb.co/4SZcZh2/p3.png"
+              alt=""
+              className="object-cover w-full mb-4 h-60 sm:h-96 dark:bg-gray-500"
+            />
+            <h2 className="mb-1 text-xl font-semibold">Heaven</h2>
+            <p className="text-sm dark:text-gray-600 mt-5">
+              Web development is the process of building, programming...
+            </p>
+            <p className="text-sm dark:text-gray-600 mt-5">
+              01. Eye Catching Testimonial, 02. Login Page, 03. Sticky Menu
+            </p>
+            <div>
+              <div className="mt-5">
+                <p>Technology Used:</p>
+              </div>
+              <p className="text-sm dark:text-gray-600 grid grid-cols-3 gap-5">
+                {/* {project.technology} */}
+                <button className="project-btn"># HTML</button>
+                <button className="project-btn"># CSS</button>
+                <button className="project-btn"># JavaScript</button>
+                <button className="project-btn"># React</button>
+                <button className="project-btn"># Tailwind CSS</button>
+                <button className="project-btn"># Firebase</button>
+                <button className="project-btn"># Node js</button>
+                <button className="project-btn"># Express js</button>
+                <button className="project-btn"># MongoDB</button>
+              </p>
+            </div>
+
+            {/* Project live */}
+            <div className="flex flex-col gap-5 mt-8">
+              <a
+                href="https://github.com/Mazbauddin/Heaven-Tourism-Client"
+                target="_blank"
+                className="text-sm font-semibold hover:text-blue-500 dark:text-blue-300"
+              >
+                Github: Source Code client
+              </a>
+              <a
+                href="https://github.com/Mazbauddin/Heaven-Tourism-Server"
+                target="_blank"
+                className="text-sm font-semibold hover:text-blue-500 dark:text-blue-300"
+              >
+                Github: Source Code Server
+              </a>
+            </div>
+
+            <div className="mt-10">
+              <a
+                href="https://heaven-tourism-management-site.web.app/"
+                target="_blank"
+                className="live-btn  text-white text-sm font-semibold hover:text-blue-500 dark:text-blue-300"
+              >
+                Live Preview
+              </a>
             </div>
           </div>
         </div>

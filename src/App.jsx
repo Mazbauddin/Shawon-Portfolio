@@ -25,7 +25,15 @@ const App = () => {
       </div>
       {/* My Latest Project */}
       <div>
-        <MyProject />
+        <div className="heading">
+          <div className="heading-title">
+            <h1>My Latest Project</h1>
+            <img src={theme_pattern} alt="" />
+          </div>
+        </div>
+        <div className="parallax para-3">
+          <MyProject />
+        </div>
       </div>
       {/* Testimonial */}
       <div>
@@ -47,7 +55,7 @@ const App = () => {
             <img src={theme_pattern} alt="" />
           </div>
         </div>
-        <div className="parallax para-2">
+        <div className="">
           <Education />
         </div>
       </div>

@@ -10,10 +10,9 @@ const Testimonial = () => {
           <div className="max-w-6xl px-6 py-10 mx-auto">
             <main className="relative z-20 w-full mt-8 md:flex md:items-center xl:mt-12">
               <div className="absolute w-full bg-[#fea100] opacity-30 -z-10 md:h-96 rounded-2xl"></div>
-
               <div className="w-full p-6 bg-blue-600 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly">
                 <img
-                  className="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl"
+                  className="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl border-2 border-yellow-500"
                   src={test2}
                   alt="client photo"
                   data-aos="fade-right"
@@ -143,7 +142,7 @@ const Testimonial = () => {
 
               <div className="w-full p-6 bg-blue-600 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly">
                 <img
-                  className="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl"
+                  className="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl border-2 border-yellow-500"
                   src={test2}
                   alt="client photo"
                   data-aos="fade-right"
