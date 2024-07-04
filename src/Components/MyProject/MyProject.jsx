@@ -2,14 +2,16 @@ import theme_pattern from "../../assets/theme_pattern.svg";
 
 const MyProject = () => {
   return (
-    <div>
-      <div className="about-title">
-        <h1 className="text-red-500">My Latest Project</h1>
-        <img src={theme_pattern} alt="" />
+    <div className="">
+      <div className="heading">
+        <div className="heading-title">
+          <h1>My Latest Project</h1>
+          <img src={theme_pattern} alt="" />
+        </div>
       </div>
 
       {/* My Project */}
-      <div className="dark:bg-gray-100 dark:text-gray-900">
+      <div className="dark:bg-gray-100 dark:text-gray-900 bg-black">
         <div className="container grid grid-cols-12 mx-auto dark:bg-gray-50">
           <div
             className="bg-no-repeat bg-cover dark:bg-gray-300 col-span-full lg:col-span-4"

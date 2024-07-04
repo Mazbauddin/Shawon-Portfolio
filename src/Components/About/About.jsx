@@ -3,13 +3,15 @@ import theme_pattern from "../../assets/theme_pattern.svg";
 
 const About = () => {
   return (
-    <div className="about">
-      <div className="about-title">
-        <h1 className="text-red-500">About Me</h1>
-        <img src={theme_pattern} alt="" />
+    <section>
+      <div className="heading">
+        <div className="heading-title">
+          <h1>About Me</h1>
+          <img src={theme_pattern} alt="" />
+        </div>
       </div>
 
-      <div className="hero min-h-screen">
+      <div className="hero min-h-screen border-2">
         {/* particles js here */}
 
         <div className="hero-content flex">
@@ -42,7 +44,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

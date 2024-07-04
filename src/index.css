@@ -16,6 +16,34 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* heading start */
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 80px 170px;
+}
+.heading-title {
+  position: relative;
+}
+.heading-title h1 {
+  padding: 0px 30px;
+  font-size: 80px;
+  font-weight: 600;
+  color: #000;
+}
+
+.heading-title img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+/* heading end */
+
 .parallax {
   display: flex;
   justify-content: center;
@@ -39,4 +67,19 @@ body {
 .para-3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(https://i.ibb.co/khR5kzR/beef-burger.jpg);
+}
+
+/* skills */
+.social-img {
+  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+}
+.social-icon {
+  font-size: 50px;
+  font-weight: 700;
+  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
