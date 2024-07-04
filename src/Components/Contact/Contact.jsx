@@ -38,8 +38,8 @@ const Contact = () => {
 
   return (
     <div id="contact" className="container mx-auto mb-20">
-      <div className="contact-section flex gap-20">
-        <div className="contact-left w-1/2">
+      <div className="contact-section grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20">
+        <div className="contact-left col-span-1">
           <h1>Let's talk</h1>
           <p>
             I'm currently avaliable to take on new projects, so feel free to
@@ -82,7 +82,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <form onSubmit={onSubmit} className="contact-right w-1/2">
+        <form onSubmit={onSubmit} className="contact-right col-span-1">
           <label htmlFor="">Your Name:</label>
           <input type="text" placeholder="Enter Your Name" name="name" id="" />
           <label htmlFor="">Your Email:</label>

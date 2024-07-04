@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import test1 from "../../assets/testimonial/hardy.png";
 import test2 from "../../assets/testimonial/lady.png";
 import test3 from "../../assets/testimonial/jack.jpg";
@@ -12,7 +13,7 @@ const Testimonial = () => {
               <div className="absolute w-full bg-[#fea100] opacity-30 -z-10 md:h-96 rounded-2xl"></div>
               <div className="w-full p-6 bg-blue-600 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly">
                 <img
-                  className="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl border-2 border-yellow-500"
+                  className="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl border-2 border-yellow-500 small-testi"
                   src={test2}
                   alt="client photo"
                   data-aos="fade-right"
@@ -122,7 +123,7 @@ const Testimonial = () => {
                   </div>
                 </div>
                 <img
-                  className="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl border-2 border-yellow-500"
+                  className="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl border-2 border-yellow-500 small-testi"
                   src={test1}
                   alt="client photo"
                   data-aos="fade-left"
@@ -142,7 +143,7 @@ const Testimonial = () => {
 
               <div className="w-full p-6 bg-blue-600 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly">
                 <img
-                  className="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl border-2 border-yellow-500"
+                  className="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl border-2 border-yellow-500 small-testi"
                   src={test2}
                   alt="client photo"
                   data-aos="fade-right"
@@ -254,7 +255,7 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <img
-                    className="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl border-2 border-yellow-500"
+                    className="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl border-2 border-yellow-500 small-testi"
                     src={test3}
                     alt="client photo"
                     data-aos="fade-left"
