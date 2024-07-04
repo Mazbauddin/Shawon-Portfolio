@@ -1,11 +1,10 @@
 import "./Navbar.css";
-import logo from "../../assets/logo.svg";
+
 import { useState } from "react";
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
 
   // sticky menu
-
   const changeBackground = () => {
     if (window.scrollY >= 80) {
       setNavbar(true);
