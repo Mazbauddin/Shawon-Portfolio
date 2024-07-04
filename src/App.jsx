@@ -1,3 +1,4 @@
+import About from "./Components/About/About";
 import Banner from "./Components/Banner/Banner";
 import Navbar from "./Components/Navbar/Navbar";
 
@@ -9,6 +10,9 @@ const App = () => {
       </div>
       <div className="parallax-banner">
         <Banner></Banner>
+      </div>
+      <div>
+        <About />
       </div>
     </div>
   );
