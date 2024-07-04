@@ -1,5 +1,5 @@
 import React from "react";
-import toast from "react-hot-toast";
+import toast, { Toaster } from "react-hot-toast";
 import {
   FaFacebookF,
   FaGithub,
@@ -104,6 +104,11 @@ const Contact = () => {
         </form>
         <span>{result}</span>
       </div>
+      <Toaster
+        toastOptions={{
+          duration: 3000,
+        }}
+      />
     </div>
   );
 };

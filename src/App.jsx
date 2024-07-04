@@ -8,7 +8,6 @@ import Navbar from "./Components/Navbar/Navbar";
 import Skills from "./Components/Skills/Skills";
 import Testimonial from "./Components/Testimonial/Testimonial";
 import theme_pattern from "./assets/mongoNew.png";
-import toast, { Toaster } from "react-hot-toast";
 
 const App = () => {
   return (
@@ -77,7 +76,6 @@ const App = () => {
       <div>
         <Footer />
       </div>
-      <Toaster />
     </div>
   );
 };

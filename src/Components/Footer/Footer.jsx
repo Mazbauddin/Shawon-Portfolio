@@ -5,7 +5,9 @@ const Footer = () => {
         <div className="lg:flex">
           <div className="w-full -mx-6 lg:w-2/5">
             <div className="px-6">
-              <a href="/">Mazba Uddin</a>
+              <a className="text-4xl text-white" href="/">
+                Mazba Uddin
+              </a>
               <p className="max-w-sm mt-2 text-gray-500 dark:text-gray-400">
                 Please Contact Me.
               </p>
