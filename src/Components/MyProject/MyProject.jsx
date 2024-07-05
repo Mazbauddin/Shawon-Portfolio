@@ -30,7 +30,7 @@ const MyProject = () => {
               className="object-cover w-full mb-4 h-60 sm:h-96 dark:bg-gray-500"
             />
             <h2 className="mb-1 text-xl font-semibold">Gravity</h2>
-            <p className="text-sm dark:text-gray-600 text-left">
+            <p className="text-sm dark:text-gray-600 text-left mt-5">
               Web development is the process of building, programming...
             </p>
             <p className="text-sm dark:text-gray-600 mt-5">
@@ -71,11 +71,11 @@ const MyProject = () => {
               </a>
             </div>
 
-            <div className="mt-10">
+            <div className="mt-10 live-project">
               <a
                 href="https://gravity-96df3.web.app/"
                 target="_blank"
-                className="live-btn  text-white text-sm font-semibold hover:text-blue-500 dark:text-blue-300"
+                className="live-btn bg-gradient-to-r from-cyan-500 to-blue-500  text-white text-sm font-semibold hover:text-black "
               >
                 Live Preview
               </a>
@@ -155,7 +155,7 @@ const MyProject = () => {
               <a
                 href="https://luxury-restaurants.web.app/"
                 target="_blank"
-                className="live-btn  text-white text-sm font-semibold hover:text-blue-500 dark:text-blue-300"
+                className="live-btn bg-gradient-to-r from-cyan-500 to-blue-500  text-white text-sm font-semibold hover:text-black "
               >
                 Live Preview
               </a>
@@ -235,7 +235,7 @@ const MyProject = () => {
               <a
                 href="https://heaven-tourism-management-site.web.app/"
                 target="_blank"
-                className="live-btn  text-white text-sm font-semibold hover:text-blue-500 dark:text-blue-300"
+                className="live-btn bg-gradient-to-r from-cyan-500 to-blue-500  text-white text-sm font-semibold hover:text-black "
               >
                 Live Preview
               </a>

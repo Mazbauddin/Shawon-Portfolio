@@ -25,7 +25,10 @@ const Banner = () => {
             </p>
 
             <div className="hero-action">
-              <div href="#" className="hero-connect">
+              <div
+                href="#"
+                className="hero-connect bg-gradient-to-r from-cyan-500 to-blue-500"
+              >
                 <AnchorLink
                   className="anchor-link"
                   offset={300}

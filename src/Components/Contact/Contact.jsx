@@ -98,7 +98,10 @@ const Contact = () => {
             rows="10"
             placeholder="Enter Your Message Here"
           ></textarea>
-          <button type="submit" className="contact-submit text-white  mx-auto">
+          <button
+            type="submit"
+            className="contact-submit text-white  mx-auto bg-gradient-to-r from-cyan-500 to-blue-500"
+          >
             Submit Now
           </button>
         </form>

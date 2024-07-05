@@ -105,7 +105,7 @@ const Navbar = () => {
                 )}
               </li>
               <div className=" flex items-center  justify-end w-full md:w-auto ">
-                <div className="nav-connect">
+                <div className="nav-connect bg-gradient-to-r from-cyan-500 to-blue-500">
                   <AnchorLink
                     className="anchor-link"
                     offset={300}

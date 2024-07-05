@@ -1,5 +1,6 @@
 import { FaCss3Alt, FaHtml5 } from "react-icons/fa";
-import theme_pattern from "../../assets/theme_pattern.svg";
+// import theme_pattern from "../../assets/theme_pattern.svg";
+import theme_pattern from "../../assets/mongoNew.png";
 
 import { SiDaisyui, SiExpress, SiMongodb } from "react-icons/si";
 import { TbBrandJavascript } from "react-icons/tb";
@@ -16,7 +17,7 @@ const Skills = () => {
       <div className="heading">
         <div className="heading-title">
           <h1>Skills</h1>
-          <img src={theme_pattern} alt="" />
+          <img className="-rotate-12" src={theme_pattern} alt="" />
         </div>
       </div>
       <div>

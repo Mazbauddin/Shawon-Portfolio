@@ -1,4 +1,5 @@
-import theme_pattern from "../../assets/theme_pattern.svg";
+// import theme_pattern from "../../assets/theme_pattern.svg";
+import theme_pattern from "../../assets/mongoNew.png";
 
 const About = () => {
   return (
@@ -6,7 +7,7 @@ const About = () => {
       <div className="heading">
         <div className="heading-title">
           <h1>About Me</h1>
-          <img src={theme_pattern} alt="" />
+          <img className="-rotate-12" src={theme_pattern} alt="" />
         </div>
       </div>
 
@@ -29,7 +30,10 @@ const About = () => {
             </p>
 
             <div className="hero-action">
-              <div href="#" className="hero-connect">
+              <div
+                href="#"
+                className="hero-connect bg-gradient-to-r from-cyan-500 to-blue-500 text-white"
+              >
                 Connect With Me
               </div>
               <div href="#" className="about-resume">

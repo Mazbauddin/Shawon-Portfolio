@@ -100,7 +100,7 @@ body {
 .live-btn {
   padding: 10px 30px;
   border-radius: 50px;
-  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.6%);
+  /* background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.6%); */
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
@@ -133,7 +133,7 @@ body {
 }
 
 .about-resume:hover {
-  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.6%);
+  background: black;
   color: white;
   border: 2px solid transparent;
 }
@@ -195,7 +195,7 @@ textarea {
 .contact-submit {
   padding: 20px 40px;
   border-radius: 50px;
-  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.6%);
+  /* background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.6%); */
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
