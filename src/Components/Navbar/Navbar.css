@@ -63,6 +63,10 @@
   display: none;
 }
 
+html[native-dark-active] .nav-menu {
+  background-color: transparent;
+}
+
 @media (max-width: 768px) {
   /* .navbar {
     margin: 20px 50px;

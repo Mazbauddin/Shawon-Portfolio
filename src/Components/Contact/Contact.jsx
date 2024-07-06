@@ -69,7 +69,7 @@ const Contact = () => {
               </a>
               <a
                 className="social-link bg-[#0a66c2] hover:text-[#0a66c2] hover:bg-white text-white border-2 border-[#0a66c2]"
-                href="https://www.linkedin.com/in/mazba-uddin-784431174/"
+                href="https://www.linkedin.com/in/mazba-uddin-shawon/"
               >
                 <FaLinkedinIn />
               </a>
