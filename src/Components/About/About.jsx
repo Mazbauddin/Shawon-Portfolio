@@ -1,5 +1,7 @@
 // import theme_pattern from "../../assets/theme_pattern.svg";
+import { FaDownload } from "react-icons/fa";
 import theme_pattern from "../../assets/mongoNew.png";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const About = () => {
   return (
@@ -32,17 +34,23 @@ const About = () => {
             <div className="hero-action">
               <div
                 href="#"
-                className="hero-connect bg-gradient-to-r from-cyan-500 to-blue-500 text-white"
+                className="hero-connect text-white bg-gradient-to-r from-cyan-500 to-blue-500"
               >
-                Connect With Me
+                <AnchorLink
+                  className="anchor-link"
+                  offset={300}
+                  href="#contact"
+                >
+                  Connect With Me
+                </AnchorLink>
               </div>
               <div href="#" className="about-resume">
                 <a
                   href="https://drive.google.com/file/d/17L-nzwaSwyOPvyf14zH4ukNET1sspTU_/view?usp=drive_link"
                   download="FileName"
-                  className=""
+                  className="flex items-center"
                 >
-                  Download My Resume
+                  <FaDownload className="mr-3" /> <span>Download Resume</span>
                 </a>
               </div>
             </div>

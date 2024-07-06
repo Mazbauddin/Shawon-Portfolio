@@ -1,21 +1,22 @@
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import "./Banner.css";
+import { FaDownload } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <div id="home" className="container mx-auto">
+    <div id="home" className="max-w-6xl mx-auto">
       <div className="hero min-h-screen">
         {/* particles js here */}
 
         <div className="hero-content flex">
-          <div className="w-1/2">
+          <div className="w-2/5">
             <img
               src="https://i.ibb.co/c6rrzLY/My-pic.png"
               className="w-full  min-h-screen"
             />
           </div>
-          <div className=" w-1/2 mt-20">
-            <h1 className="text-5xl font-bold">
+          <div className=" w-3/5 mt-20">
+            <h1 className="text-5xl font-bold text-right">
               <span className="port-name">Md. Mazba Uddin Shawon</span>
             </h1>
             <p className="py-6 text-right">Frontend Developer</p>
@@ -24,7 +25,7 @@ const Banner = () => {
               experience.
             </p>
 
-            <div className="hero-action">
+            <div className="hero-action justify-end">
               <div
                 href="#"
                 className="hero-connect bg-gradient-to-r from-cyan-500 to-blue-500"
@@ -37,12 +38,13 @@ const Banner = () => {
                   Connect With Me
                 </AnchorLink>
               </div>
-              <div href="#" className="hero-resume">
+              <div href="#" className="hero-resume ">
                 <a
                   href="https://drive.google.com/file/d/17L-nzwaSwyOPvyf14zH4ukNET1sspTU_/view?usp=drive_link"
                   download="FileName"
+                  className="flex items-center"
                 >
-                  Download My Resume
+                  <FaDownload className="mr-3" /> <span>Download Resume</span>
                 </a>
               </div>
             </div>
