@@ -41,7 +41,7 @@ const Contact = () => {
       <div className="contact-section grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20">
         <div className="contact-left col-span-1">
           <h1>Let's talk</h1>
-          <p>
+          <p className="text-left">
             I'm currently avaliable to take on new projects, so feel free to
             send me a message about anything that you want me to work on. You
             can contact anytime.
@@ -62,19 +62,19 @@ const Contact = () => {
             </div>
             <div className="flex gap-10 mt-10">
               <a
-                className="social-link bg-[#0966ff] hover:text-[#0966ff] hover:bg-white text-white border-2 border-[#0966ff]"
+                className="social-link bg-[#0966ff] hover:text-[#0966ff] hover:bg-white text-white border-2 border-[#0966ff] hover:border-transparent"
                 href="https://www.facebook.com/mazbashawon"
               >
                 <FaFacebookF />
               </a>
               <a
-                className="social-link bg-[#0a66c2] hover:text-[#0a66c2] hover:bg-white text-white border-2 border-[#0a66c2]"
+                className="social-link bg-[#0a66c2] hover:text-[#0a66c2] hover:bg-white text-white border-2 border-[#0a66c2] hover:border-transparent"
                 href="https://www.linkedin.com/in/mazba-uddin-shawon/"
               >
                 <FaLinkedinIn />
               </a>
               <a
-                className="social-link bg-[#1f2328] hover:text-[#1f2328] hover:bg-white text-white border-2 border-[#1f2328]"
+                className="social-link bg-[#1f2328] hover:text-[#1f2328] hover:bg-white text-white border-2 border-[#1f2328] hover:border-transparent"
                 href="https://github.com/Mazbauddin"
               >
                 <FaGithub />

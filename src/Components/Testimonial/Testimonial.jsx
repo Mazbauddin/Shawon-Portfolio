@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import test1 from "../../assets/testimonial/hardy.png";
 import test2 from "../../assets/testimonial/lady.png";
-import test3 from "../../assets/testimonial/jack.jpg";
+import test3 from "../../assets/testimonial/jack.png";
 
 const Testimonial = () => {
   return (

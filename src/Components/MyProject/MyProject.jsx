@@ -18,7 +18,7 @@ const MyProject = () => {
               >
                 Md. Mazba Uddin Shawon
               </a>
-              <span className="text-xs dark:text-gray-600">
+              <span className="text-xs dark:text-gray-600 text-left">
                 Published Date: 10/05/2024
               </span>
             </div>
@@ -27,15 +27,17 @@ const MyProject = () => {
             <img
               src="https://i.ibb.co/K6JYfK9/p2.png"
               alt=""
-              className="object-cover w-full mb-4 h-60 sm:h-96 dark:bg-gray-500"
+              className="object-cover w-full mb-4 h-40 sm:h-60 dark:bg-gray-500"
             />
             <h2 className="mb-1 text-xl font-semibold">Gravity</h2>
             <p className="text-sm dark:text-gray-600 text-left mt-5">
               Web development is the process of building, programming...
             </p>
-            <p className="text-sm dark:text-gray-600 mt-5">
-              01. Eye Catching Testimonial, 02. Login Page, 03. Sticky Menu
-            </p>
+            <div className="text-sm dark:text-gray-600 mt-5 text-left">
+              <p>01. Eye Catching Testimonial</p>
+              <p>02. Login Page</p>
+              <p>03. Sticky Menu</p>
+            </div>
             <div>
               <div className="mt-5">
                 <p>Technology Used:</p>
@@ -75,7 +77,7 @@ const MyProject = () => {
               <a
                 href="https://gravity-96df3.web.app/"
                 target="_blank"
-                className="live-btn bg-gradient-to-r from-cyan-500 to-blue-500  text-white text-sm font-semibold hover:text-black "
+                className="live-btn bg-gradient-to-r from-cyan-500 to-blue-500 text-white text-sm font-semibold hover:text-black "
               >
                 Live Preview
               </a>
@@ -97,7 +99,7 @@ const MyProject = () => {
               >
                 Md. Mazba Uddin Shawon
               </a>
-              <span className="text-xs dark:text-gray-600">
+              <span className="text-xs dark:text-gray-600 text-left">
                 Published Date: 27/03/2024
               </span>
             </div>
@@ -106,15 +108,17 @@ const MyProject = () => {
             <img
               src="https://i.ibb.co/DL0Vv7s/p1.png"
               alt=""
-              className="object-cover w-full mb-4 h-60 sm:h-96 dark:bg-gray-500"
+              className="object-cover w-full mb-4 h-40 sm:h-60 dark:bg-gray-500"
             />
             <h2 className="mb-1 text-xl font-semibold">Luxury</h2>
-            <p className="text-sm dark:text-gray-600 mt-5">
+            <p className="text-sm dark:text-gray-600 mt-5 text-left">
               Web development is the process of building, programming...
             </p>
-            <p className="text-sm dark:text-gray-600 mt-5">
-              01. Eye Catching Testimonial, 02. Login Page, 03. Sticky Menu
-            </p>
+            <div className="text-sm dark:text-gray-600 mt-5 text-left">
+              <p>01. Eye Catching Testimonial</p>
+              <p>02. Login Page</p>
+              <p>03. Sticky Menu</p>
+            </div>
             <div>
               <div className="mt-5">
                 <p>Technology Used:</p>
@@ -151,7 +155,7 @@ const MyProject = () => {
               </a>
             </div>
 
-            <div className="mt-10">
+            <div className="mt-10 live-project">
               <a
                 href="https://luxury-restaurants.web.app/"
                 target="_blank"
@@ -177,7 +181,7 @@ const MyProject = () => {
               >
                 Md. Mazba Uddin Shawon
               </a>
-              <span className="text-xs dark:text-gray-600">
+              <span className="text-xs dark:text-gray-600 text-left">
                 Published Date: 22/04/2024
               </span>
             </div>
@@ -186,15 +190,17 @@ const MyProject = () => {
             <img
               src="https://i.ibb.co/4SZcZh2/p3.png"
               alt=""
-              className="object-cover w-full mb-4 h-60 sm:h-96 dark:bg-gray-500"
+              className="object-cover w-full mb-4 h-40 sm:h-60 dark:bg-gray-500"
             />
             <h2 className="mb-1 text-xl font-semibold">Heaven</h2>
-            <p className="text-sm dark:text-gray-600 mt-5">
+            <p className="text-sm dark:text-gray-600 mt-5 text-left">
               Web development is the process of building, programming...
             </p>
-            <p className="text-sm dark:text-gray-600 mt-5">
-              01. Eye Catching Testimonial, 02. Login Page, 03. Sticky Menu
-            </p>
+            <div className="text-sm dark:text-gray-600 mt-5 text-left">
+              <p>01. Eye Catching Testimonial</p>
+              <p>02. Login Page</p>
+              <p>03. Sticky Menu</p>
+            </div>
             <div>
               <div className="mt-5">
                 <p>Technology Used:</p>
@@ -231,7 +237,7 @@ const MyProject = () => {
               </a>
             </div>
 
-            <div className="mt-10">
+            <div className="mt-10 live-project">
               <a
                 href="https://heaven-tourism-management-site.web.app/"
                 target="_blank"

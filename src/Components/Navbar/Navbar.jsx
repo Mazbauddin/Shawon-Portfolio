@@ -35,9 +35,9 @@ const Navbar = () => {
     <div className="max-w-[1920px] mx-auto ">
       <div className={navbar ? "navbar active" : "navbar shadow-2xl"}>
         <header className="h-20  flex w-full dark:bg-[#120505] px-5 md:px-[50px] lg:px-[80px] xl:px-[120px] 2xl:px-[150px]">
-          <div className="logo flex w-1/4 items-center">
+          <div className="logo flex w-2/4 md:w-1/4 lg:w-1/4 items-center">
             {/* <img src={logo} alt="" /> */}
-            <a className="text-4xl text-white" href="/">
+            <a className=" text-lg md:text-4xl lg:text-4xl text-white" href="/">
               Mazba Uddin
             </a>
             {/* <img
@@ -190,6 +190,17 @@ const Navbar = () => {
                   <></>
                 )}
               </li>
+              <div className=" flex items-center  justify-end w-full md:w-auto ">
+                <div className="nav-connect bg-gradient-to-r from-cyan-500 to-blue-500">
+                  <AnchorLink
+                    className="anchor-link"
+                    offset={300}
+                    href="#contact"
+                  >
+                    Hire Me
+                  </AnchorLink>
+                </div>
+              </div>
             </ul>
           </div>
         </div>

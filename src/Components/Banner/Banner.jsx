@@ -8,18 +8,20 @@ const Banner = () => {
       <div className="hero min-h-screen">
         {/* particles js here */}
 
-        <div className="hero-content flex">
-          <div className="w-2/5">
+        <div className="flex banner-area items-center">
+          <div className="w-2/5 profile-img">
             <img
               src="https://i.ibb.co/c6rrzLY/My-pic.png"
-              className="w-full  min-h-screen"
+              className="w-full profile-image min-h-screen "
             />
           </div>
           <div className=" w-3/5 mt-20">
             <h1 className="text-5xl font-bold text-right">
               <span className="port-name">Md. Mazba Uddin Shawon</span>
             </h1>
-            <p className="py-6 text-right">Frontend Developer</p>
+            <p className="py-6 text-right md:text-3xl lg:text-3xl pr-3 font-bold">
+              Frontend Developer
+            </p>
             <p className="pb-6 text-right">
               I am a frontend developer from Bangladesh with 1 years of
               experience.

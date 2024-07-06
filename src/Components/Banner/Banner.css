@@ -24,7 +24,6 @@
   -webkit-text-fill-color: transparent;
   margin-top: 100px;
   margin-bottom: 100px;
-  padding-left: 30px;
 }
 
 .hero-action {
@@ -38,7 +37,8 @@
 .hero-connect {
   padding: 20px 40px;
   border-radius: 50px;
-  /* background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.6%); */
+  /*background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.6%);
+  */
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
@@ -52,11 +52,13 @@
   -o-transition: 0.5s;
 }
 .hero-connect:hover {
+  transition: 0.5s;
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
+  color: #000;
 }
 
 .hero-resume {
@@ -96,5 +98,13 @@
   .hero-resume {
     padding: 10px 15px;
     font-size: 12px;
+  }
+  /* .banner-area {
+    flex-direction: column;
+    height: 100vh;
+  } */
+  .profile-image {
+    height: 150px;
+    width: 150px;
   }
 }

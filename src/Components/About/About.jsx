@@ -16,13 +16,15 @@ const About = () => {
       <div className="hero min-h-screen border-2">
         {/* particles js here */}
 
-        <div className="hero-content flex">
+        <div className="flex about-area items-center px-10">
           <div className=" w-1/2">
-            <h1 className="text-5xl font-bold">
+            <h1 className=" font-bold">
               <span className="port-name">Md. Mazba Uddin Shawon</span>
             </h1>
-            <p className="py-6 text-right">Frontend Developer</p>
-            <p className="py-6 text-justify">
+            <p className="py-6 text-right md:text-3xl lg:text-3xl pr-3 font-bold">
+              Frontend Developer
+            </p>
+            <p className=" text-justify">
               A highly motivated and detail-oriented front-end developer seeking
               to leverage expertise in HTML, CSS, JavaScript, React.js, and
               modern UI frameworks like Tailwind CSS and Material-Tailwind to
@@ -31,7 +33,7 @@ const About = () => {
               experience through innovative solutions.
             </p>
 
-            <div className="hero-action">
+            <div className="hero-action py-6 ">
               <div
                 href="#"
                 className="hero-connect text-white bg-gradient-to-r from-cyan-500 to-blue-500"
