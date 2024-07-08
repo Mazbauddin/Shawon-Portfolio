@@ -79,7 +79,7 @@ const Navbar = () => {
               <li>
                 <AnchorLink
                   className="anchor-link"
-                  offset={400}
+                  offset={420}
                   href="#contact"
                 >
                   <p onClick={() => setMenu("contact")}>Contact</p>
@@ -94,7 +94,7 @@ const Navbar = () => {
                 <div className="nav-connect bg-gradient-to-r from-cyan-500 to-blue-500">
                   <AnchorLink
                     className="anchor-link"
-                    offset={400}
+                    offset={420}
                     href="#contact"
                   >
                     Hire Me
@@ -121,7 +121,7 @@ const Navbar = () => {
             )}
           </button>
         </header>
-        {/* Side Menu */}
+        {/* Mobile Menu */}
         <div
           className={` ${
             isOpen ? "top-24" : "top-[-490px]"
@@ -137,7 +137,7 @@ const Navbar = () => {
                 {menu === "home" ? <img src={theme_pattern} alt="" /> : <></>}
               </li>
               <li>
-                <AnchorLink className="anchor-link" offset={150} href="#about">
+                <AnchorLink className="anchor-link" offset={250} href="#about">
                   <p onClick={() => setMenu("about")}>About Me</p>
                 </AnchorLink>
                 {menu === "about" ? <img src={theme_pattern} alt="" /> : <></>}
@@ -145,7 +145,7 @@ const Navbar = () => {
               <li>
                 <AnchorLink
                   className="anchor-link"
-                  offset={420}
+                  offset={360}
                   href="#services"
                 >
                   <p onClick={() => setMenu("services")}>Services</p>
@@ -157,7 +157,7 @@ const Navbar = () => {
                 )}
               </li>
               <li>
-                <AnchorLink className="anchor-link" offset={400} href="#work">
+                <AnchorLink className="anchor-link" offset={450} href="#work">
                   <p onClick={() => setMenu("work")}>Portfolio</p>
                 </AnchorLink>
                 {menu === "work" ? <img src={theme_pattern} alt="" /> : <></>}
@@ -165,7 +165,7 @@ const Navbar = () => {
               <li>
                 <AnchorLink
                   className="anchor-link"
-                  offset={300}
+                  offset={210}
                   href="#contact"
                 >
                   <p onClick={() => setMenu("contact")}>Contact</p>
@@ -180,7 +180,7 @@ const Navbar = () => {
                 <div className="nav-connect bg-gradient-to-r from-cyan-500 to-blue-500">
                   <AnchorLink
                     className="anchor-link"
-                    offset={300}
+                    offset={210}
                     href="#contact"
                   >
                     Hire Me

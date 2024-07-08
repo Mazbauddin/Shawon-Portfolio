@@ -22,7 +22,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 80px;
-  margin: 80px 170px;
+  margin: 80px 10px;
 }
 .heading-title {
   position: relative;
@@ -247,6 +247,7 @@ textarea {
 .contact-submit:hover {
   transform: scale(1.1);
   transition: 0.3s;
+  color: #000;
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -276,12 +277,12 @@ textarea {
 @media (max-width: 768px) {
   .heading-title h1 {
     padding: 0px 30px;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
-    color: #000;
   }
+
   .heading-title img {
-    width: 100px;
+    width: 150px;
   }
   .about-resume {
     padding: 10px 20px;
@@ -291,7 +292,8 @@ textarea {
     padding: 10px 20px;
     font-size: 16px;
   }
-
+  .about-area {
+  }
   .about-section {
     height: 100vh;
     padding: 0px 15px;
@@ -314,13 +316,13 @@ textarea {
     height: 200vh;
     padding: 60px 15px;
   }
-
   .small-testi {
     margin: auto;
   }
   .small-dir {
     flex-direction: column;
   }
+
   .about-area {
     flex-direction: column-reverse;
   }

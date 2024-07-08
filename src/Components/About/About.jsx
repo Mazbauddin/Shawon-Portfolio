@@ -32,7 +32,7 @@ const About = () => {
               >
                 <AnchorLink
                   className="anchor-link"
-                  offset={400}
+                  offset={210}
                   href="#contact"
                 >
                   Connect With Me
