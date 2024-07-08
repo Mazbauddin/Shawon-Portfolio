@@ -3,23 +3,12 @@ import theme_pattern from "../../assets/nav_underline.svg";
 import { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import menu_Open from "../../assets/menu_open.svg";
-// import menu_Close from "../../assets/menu_close.svg";
 import { IoCloseSharp } from "react-icons/io5";
-// import { FaHamburger } from "react-icons/fa";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
   const [navbar, setNavbar] = useState(false);
   const [isOpen, isSetOpen] = useState(false);
-  // const menuRef = useRef();
-
-  // mobile menu
-  // const openMenu = () => {
-  //   menuRef.current.style.right = "0";
-  // };
-  // const closeMenu = () => {
-  //   menuRef.current.style.right = "-750px";
-  // };
 
   // sticky menu
   const changeBackground = () => {
@@ -34,23 +23,20 @@ const Navbar = () => {
   return (
     <div className="max-w-[1920px] mx-auto ">
       <div className={navbar ? "navbar active" : "navbar shadow-2xl"}>
-        <header className="h-20  flex w-full dark:bg-[#120505] px-5 md:px-[50px] lg:px-[80px] xl:px-[120px] 2xl:px-[150px]">
-          <div className="logo flex w-2/4 md:w-1/4 lg:w-1/4 items-center">
+        <header className="h-20  flex w-full  px-5 md:px-[50px] lg:px-[80px] xl:px-[120px] 2xl:px-[150px]">
+          <div className="logo flex w-3/4 md:w-1/4 lg:w-1/4 items-center">
             {/* <img src={logo} alt="" /> */}
-            <a className=" text-lg md:text-4xl lg:text-4xl text-white" href="/">
+            <a
+              className=" text-2xl md:text-4xl lg:text-4xl text-white font-bold"
+              href="/"
+            >
               Mazba Uddin
             </a>
-            {/* <img
-              src={menu_Open}
-              // onClick={openMenu}
-              alt=""
-              className="nav-mobile-open md:hidden"
-            /> */}
           </div>
           <div className="header-links md:contents font-medium text-base ">
             <ul
               // ref={menuRef}
-              className="ml-4 text-white  mr-auto  justify-center dark:text-orange-500 nav-menu flex items-center gap-16 text-lg"
+              className="ml-4 text-white  mr-auto  justify-center dark:text-white nav-menu flex items-center gap-16 text-lg"
             >
               <img
                 // src={menu_Close}
@@ -65,7 +51,7 @@ const Navbar = () => {
                 {menu === "home" ? <img src={theme_pattern} alt="" /> : <></>}
               </li>
               <li>
-                <AnchorLink className="anchor-link" offset={150} href="#about">
+                <AnchorLink className="anchor-link" offset={300} href="#about">
                   <p onClick={() => setMenu("about")}>About Me</p>
                 </AnchorLink>
                 {menu === "about" ? <img src={theme_pattern} alt="" /> : <></>}
@@ -73,7 +59,7 @@ const Navbar = () => {
               <li>
                 <AnchorLink
                   className="anchor-link"
-                  offset={420}
+                  offset={370}
                   href="#services"
                 >
                   <p onClick={() => setMenu("services")}>Services</p>
@@ -93,7 +79,7 @@ const Navbar = () => {
               <li>
                 <AnchorLink
                   className="anchor-link"
-                  offset={300}
+                  offset={400}
                   href="#contact"
                 >
                   <p onClick={() => setMenu("contact")}>Contact</p>
@@ -108,7 +94,7 @@ const Navbar = () => {
                 <div className="nav-connect bg-gradient-to-r from-cyan-500 to-blue-500">
                   <AnchorLink
                     className="anchor-link"
-                    offset={300}
+                    offset={400}
                     href="#contact"
                   >
                     Hire Me

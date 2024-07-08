@@ -11,7 +11,7 @@
 }
 body {
   height: 100vh;
-  background: #000;
+  background: white;
   font-family: "Roboto", sans-serif;
 }
 
@@ -31,14 +31,15 @@ body {
   padding: 0px 30px;
   font-size: 80px;
   font-weight: 600;
-  color: #000;
+  position: relative;
+  z-index: 2;
 }
 
 .heading-title img {
   position: absolute;
   bottom: 0;
   right: 0;
-  z-index: -1;
+  z-index: 1;
 }
 
 /* heading end */
@@ -49,6 +50,26 @@ body {
   align-items: center;
   text-align: center;
   height: 150vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://i.ibb.co/QPMpXRY/banner-black.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+.about-section {
+  height: 100vh;
+}
+.testimonial-section {
+  height: 130vh;
+}
+.parallax-half {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80vh;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(https://i.ibb.co/QPMpXRY/banner-black.jpg);
@@ -74,17 +95,6 @@ body {
   /* background: linear-gradient(270deg, #df8908 10%, #b415ff 100%); */
   border: 2px solid rgb(173, 167, 179);
 }
-/* .social-icon {
-  font-size: 50px;
-  font-weight: 700;
-  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  color: white;
-} */
 
 /* my project */
 .project-btn {
@@ -139,7 +149,8 @@ body {
 .about-resume {
   padding: 20px 40px;
   border-radius: 50px;
-  border: 2px solid #000;
+  color: rgb(255, 255, 255);
+  border: 2px solid #ffffff;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
@@ -157,6 +168,8 @@ body {
   background: black;
   color: white;
   border: 2px solid transparent;
+  transition: 0.5s;
+  transform: scale(1.1);
 }
 
 /* contact section */
@@ -268,15 +281,40 @@ textarea {
     color: #000;
   }
   .heading-title img {
-    width: 150px;
+    width: 100px;
   }
   .about-resume {
     padding: 10px 20px;
     font-size: 16px;
   }
-  .para-3 {
-    height: 550vh;
+  .hero-connect {
+    padding: 10px 20px;
+    font-size: 16px;
   }
+
+  .about-section {
+    height: 100vh;
+    padding: 0px 15px;
+  }
+  .skills-section {
+    height: 200vh;
+  }
+  .project-section {
+    height: 300vh;
+    padding: 0px 30px;
+  }
+  .testimonial-section {
+    height: 80vh;
+  }
+  .education-section {
+    height: 50vh;
+    padding: 0px 30px;
+  }
+  .contact-section {
+    height: 200vh;
+    padding: 60px 15px;
+  }
+
   .small-testi {
     margin: auto;
   }
@@ -285,5 +323,8 @@ textarea {
   }
   .about-area {
     flex-direction: column-reverse;
+  }
+  .port-designation {
+    text-align: center;
   }
 }

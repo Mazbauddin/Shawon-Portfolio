@@ -12,27 +12,37 @@ import Wave from "react-wavify";
 
 const App = () => {
   return (
-    <div>
+    <div className="bg-white dark:bg-white text-slate-500 dark:text-slate-700">
       <div>
         <Navbar />
       </div>
+      {/* Banner */}
       <div className="parallax-banner">
         <Banner></Banner>
       </div>
-      <Wave
-        className="wave-area"
-        fill="#ffffff"
-        paused={false}
-        style={{ display: "flex" }}
-        options={{
-          height: 80,
-          amplitude: 40,
-          speed: 0.2,
-          points: 7,
-        }}
-      />
+      {/* About */}
       <div>
-        <About />
+        <Wave
+          className="wave-area"
+          fill="#ffffff"
+          paused={false}
+          style={{ display: "flex" }}
+          options={{
+            height: 80,
+            amplitude: 40,
+            speed: 0.2,
+            points: 7,
+          }}
+        />
+        <div className="heading">
+          <div className="heading-title">
+            <h1 className="">About</h1>
+            <img src={theme_pattern} className="-rotate-12" alt="" />
+          </div>
+        </div>
+        <div className="parallax para-2 about-section">
+          <About />
+        </div>
       </div>
       {/* Skills */}
       <div>
@@ -54,7 +64,7 @@ const App = () => {
             <img src={theme_pattern} className="-rotate-12" alt="" />
           </div>
         </div>
-        <div className="parallax para-3 pb-20">
+        <div className="parallax para-3 pb-20 skills-section">
           <Skills />
         </div>
       </div>
@@ -78,7 +88,7 @@ const App = () => {
             <img className="-rotate-12" src={theme_pattern} alt="" />
           </div>
         </div>
-        <div className="parallax para-3 pb-20">
+        <div className="parallax para-3 pb-20 project-section">
           <MyProject className="" />
         </div>
       </div>
@@ -102,7 +112,7 @@ const App = () => {
             <img src={theme_pattern} className="-rotate-12" alt="" />
           </div>
         </div>
-        <div className="parallax para-2">
+        <div className="parallax para-2 testimonial-section">
           <Testimonial />
         </div>
       </div>
@@ -126,20 +136,32 @@ const App = () => {
             <img className="-rotate-12" src={theme_pattern} alt="" />
           </div>
         </div>
-        <div className="">
+        <div className="parallax-half para-2 education-section">
           <Education />
         </div>
       </div>
-      {/* contact */}
+      {/* Contact */}
       <div>
+        <Wave
+          className="wave-area"
+          fill="#ffffff"
+          paused={false}
+          style={{ display: "flex" }}
+          options={{
+            height: 80,
+            amplitude: 40,
+            speed: 0.2,
+            points: 7,
+          }}
+        />
         <div className="heading">
           <div className="heading-title">
             <h1>Get In Touch</h1>
             <img className="-rotate-12" src={theme_pattern} alt="" />
           </div>
         </div>
-        <div className=" parallax para-2 pt-40 pb-10">
-          <Contact />
+        <div className="parallax para-3 pt-10 contact-section">
+          <Contact className="" />
         </div>
       </div>
       {/* Footer */}

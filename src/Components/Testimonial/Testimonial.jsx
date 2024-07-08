@@ -7,7 +7,7 @@ const Testimonial = () => {
   return (
     <div id="services" className="carousel w-full">
       <div id="slide1" className="carousel-item relative w-full">
-        <section className=" dark:bg-gray-900 container mx-auto">
+        <section className="  container mx-auto">
           <div className="max-w-6xl px-6 py-10 mx-auto">
             <main className="relative z-20 w-full mt-8 md:flex md:items-center xl:mt-12">
               <div className="absolute w-full bg-[#fea100] opacity-30 -z-10 md:h-96 rounded-2xl"></div>
@@ -72,7 +72,7 @@ const Testimonial = () => {
         </section>
       </div>
       <div id="slide2" className="carousel-item relative w-full">
-        <section className=" dark:bg-gray-900 container mx-auto">
+        <section className="  container mx-auto">
           <div className="max-w-6xl px-6 py-10 mx-auto">
             <main className="relative z-20 w-full mt-8 md:flex md:items-center xl:mt-12">
               <div className="absolute w-full bg-[#fea100] opacity-30 -z-10 md:h-96 rounded-2xl"></div>
@@ -136,7 +136,7 @@ const Testimonial = () => {
         </section>
       </div>
       <div id="slide3" className="carousel-item relative w-full">
-        <section className=" dark:bg-gray-900 container mx-auto">
+        <section className="  container mx-auto">
           <div className="max-w-6xl px-6 py-10 mx-auto">
             <main className="relative z-20 w-full mt-8 md:flex md:items-center xl:mt-12">
               <div className="absolute w-full bg-[#fea100] opacity-30 -z-10 md:h-96 rounded-2xl"></div>
@@ -203,7 +203,7 @@ const Testimonial = () => {
       </div>
       <div id="slide4" className="carousel-item relative w-full">
         <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-          <section className=" dark:bg-gray-900 container mx-auto">
+          <section className="  container mx-auto">
             <div className="max-w-6xl px-6 py-10 mx-auto">
               <main className="relative z-20 w-full mt-8 md:flex md:items-center xl:mt-12">
                 <div className="absolute w-full bg-[#fea100] opacity-30 -z-10 md:h-96 rounded-2xl"></div>

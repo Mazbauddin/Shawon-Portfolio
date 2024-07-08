@@ -126,7 +126,7 @@ const Footer = () => {
                   +8801787769270
                 </span>
                 <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  mazbauddin2010@email.com
+                  mazbauddin2010@gmail.com
                 </span>
               </div>
             </div>

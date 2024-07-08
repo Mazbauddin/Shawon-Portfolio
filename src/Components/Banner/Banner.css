@@ -82,29 +82,31 @@
   background: white;
   color: #000;
   border: 2px solid #fff;
+  transition: 0.5s;
+  transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
+  .banner-content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
   .port-name {
     font-size: 24px;
     margin-bottom: 20px;
     padding-left: 0px;
   }
   .hero-connect {
-    padding: 10px 15px;
-    font-size: 12px;
+    padding: 10px 20px;
+    font-size: 16px;
   }
 
   .hero-resume {
     padding: 10px 15px;
-    font-size: 12px;
+    font-size: 16px;
   }
-  /* .banner-area {
-    flex-direction: column;
-    height: 100vh;
-  } */
+
   .profile-image {
-    height: 150px;
-    width: 150px;
+    height: 350px;
   }
 }

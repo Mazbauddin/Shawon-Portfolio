@@ -1,30 +1,22 @@
 // import theme_pattern from "../../assets/theme_pattern.svg";
 import { FaDownload } from "react-icons/fa";
-import theme_pattern from "../../assets/mongoNew.png";
+
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const About = () => {
   return (
     <section id="about" className="container mx-auto">
-      <div className="heading">
-        <div className="heading-title">
-          <h1>About Me</h1>
-          <img className="-rotate-12" src={theme_pattern} alt="" />
-        </div>
-      </div>
-
-      <div className="hero min-h-screen border-2">
+      <div className="hero min-h-screen">
         {/* particles js here */}
-
-        <div className="flex about-area items-center px-10">
-          <div className=" w-1/2">
-            <h1 className=" font-bold">
+        <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 about-area items-center px-5 md:px-10 lg:px-10">
+          <div className="col-span-2">
+            <h1 className="font-bold">
               <span className="port-name">Md. Mazba Uddin Shawon</span>
             </h1>
-            <p className="py-6 text-right md:text-3xl lg:text-3xl pr-3 font-bold">
+            <p className="py-2 md:py-4 text-right md:text-3xl lg:text-3xl pr-3 font-bold port-designation">
               Frontend Developer
             </p>
-            <p className=" text-justify">
+            <p className="text-justify">
               A highly motivated and detail-oriented front-end developer seeking
               to leverage expertise in HTML, CSS, JavaScript, React.js, and
               modern UI frameworks like Tailwind CSS and Material-Tailwind to
@@ -40,7 +32,7 @@ const About = () => {
               >
                 <AnchorLink
                   className="anchor-link"
-                  offset={300}
+                  offset={400}
                   href="#contact"
                 >
                   Connect With Me
@@ -57,10 +49,10 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="w-1/2">
+          <div className="col-span-2 profile-img">
             <img
               src="https://i.ibb.co/c6rrzLY/My-pic.png"
-              className="w-full  min-h-screen"
+              className="w-full profile-image lg:min-h-screen"
             />
           </div>
         </div>

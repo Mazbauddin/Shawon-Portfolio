@@ -12,25 +12,26 @@ import { DiNodejs } from "react-icons/di";
 
 const Skills = () => {
   return (
-    <section className="py-6 dark:bg-gray-100 dark:text-gray-900">
+    <section className="py-6 dark:text-gray-900">
       <div className=" grid grid-cols-2 gap-4 p-4  md:grid-cols-4">
-        <TbBrandJavascript className="text-yellow-500 social-img w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1 dark:bg-gray-500 aspect-square" />
+        <TbBrandJavascript className="text-yellow-500 social-img w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1  aspect-square" />
 
         <FaHtml5 className=" text-orange-500 social-img w-full h-full rounded shadow-sm min-h-48  aspect-square py-6" />
 
-        <FaCss3Alt className=" text-[#2762ea] social-img w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square py-6" />
+        <FaCss3Alt className=" text-[#2762ea] social-img w-full h-full rounded shadow-sm min-h-48  aspect-square py-6" />
 
-        <RiTailwindCssFill className="text-[#16b8b2] social-img w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square px-6" />
-        <SiDaisyui className="text-[#19d1a6] social-img text-4xl w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square px-6" />
+        <RiTailwindCssFill className="text-[#16b8b2] social-img w-full h-full rounded shadow-sm min-h-48  aspect-square px-6" />
 
-        <RiBootstrapFill className="text-[#8814f7] social-img w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square px-6" />
+        <SiDaisyui className="text-[#19d1a6] social-img text-4xl w-full h-full rounded shadow-sm min-h-48 aspect-square px-6" />
 
-        <DiNodejs className="text-[#79b265] social-img w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square px-6" />
+        <RiBootstrapFill className="text-[#8814f7] social-img w-full h-full rounded shadow-sm min-h-48  aspect-square px-6" />
 
-        <SiMongodb className="text-[#12a54e] social-img w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square py-6" />
+        <DiNodejs className="text-[#79b265] social-img w-full h-full rounded shadow-sm min-h-48  aspect-square px-6" />
 
-        <SiExpress className="social-img w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square px-6" />
-        <RiReactjsLine className="text-[#5ed3f3] social-img w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-1 md:row-start-3 dark:bg-gray-500 aspect-square" />
+        <SiMongodb className="text-[#12a54e] social-img w-full h-full rounded shadow-sm min-h-48  aspect-square py-6" />
+
+        <SiExpress className="social-img w-full h-full rounded shadow-sm min-h-48 text-white aspect-square px-6" />
+        <RiReactjsLine className="text-[#5ed3f3] social-img w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-1 md:row-start-3  aspect-square" />
       </div>
     </section>
   );

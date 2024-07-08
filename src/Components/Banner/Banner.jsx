@@ -8,14 +8,14 @@ const Banner = () => {
       <div className="hero min-h-screen">
         {/* particles js here */}
 
-        <div className="flex banner-area items-center">
-          <div className="w-2/5 profile-img">
+        <div className="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-5 banner-area items-center">
+          <div className="col-span-2 profile-img">
             <img
               src="https://i.ibb.co/c6rrzLY/My-pic.png"
-              className="w-full profile-image min-h-screen "
+              className="w-full profile-image lg:min-h-screen"
             />
           </div>
-          <div className=" w-3/5 mt-20">
+          <div className="banner-content col-span-3 sm:mt-10 md:mt-20 lg:mt-20">
             <h1 className="text-5xl font-bold text-right">
               <span className="port-name">Md. Mazba Uddin Shawon</span>
             </h1>
@@ -34,13 +34,13 @@ const Banner = () => {
               >
                 <AnchorLink
                   className="anchor-link"
-                  offset={300}
+                  offset={400}
                   href="#contact"
                 >
                   Connect With Me
                 </AnchorLink>
               </div>
-              <div href="#" className="hero-resume ">
+              <div href="#" className="hero-resume">
                 <a
                   href="https://drive.google.com/file/d/17L-nzwaSwyOPvyf14zH4ukNET1sspTU_/view?usp=drive_link"
                   download="FileName"
