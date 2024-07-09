@@ -183,7 +183,7 @@ const Navbar = () => {
                     offset={210}
                     href="#contact"
                   >
-                    Hire Me
+                    Hire Me +
                   </AnchorLink>
                 </div>
               </div>
