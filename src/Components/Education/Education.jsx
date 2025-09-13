@@ -6,12 +6,9 @@ const Education = () => {
         <article>
           <h2 className="text-xl font-bold">B.A (Bachelor of Art's)</h2>
           <p className="mt-4 dark:text-gray-600">
-            University: Bangladesh Open University
+            University: Govt. Shahid Suhwardy College
           </p>
-          <p className="mt-4 dark:text-gray-600">
-            Institution: Govt. Shahid Suhwardy College
-          </p>
-          <p className="mt-4 dark:text-gray-600">Year: 3rd</p>
+          <p className="mt-4 dark:text-gray-600">Year: 2016</p>
         </article>
       </div>
     </div>
